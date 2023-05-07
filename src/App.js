@@ -44,9 +44,7 @@ function App() {
 
   return (
     <div className="App">
-    <div className="welcome">
-    WelCome to TextUtils Website
-    </div>
+    
       <Router>
         <Navbar title="" about="about_Textutils" mode={mode}  toggleMode={toggleMode}   />
         <Alert alert= {alert} />
